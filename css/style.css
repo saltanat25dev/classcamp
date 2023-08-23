@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    transition: .5s;
+}
+
+#header {
+    padding: 25px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo h1 {
+    color: black;
+    font-size: 25px;
+    font-weight: 900;
+    padding-right: 58px;
+}
+
+.header-logo a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 26px;
+    transition: 5s;
+}
+
+.header-logo a:hover {
+    color: blue;
+    text-decoration-line: underline;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-btn button {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #FF4343;
+    border-radius: 8px;
+    padding: 15px 25px;
+    border: 2px solid #FF4343;
+    margin: 0 10px;
+}
+
+.header-btn button:hover {
+    background: transparent;
+    color: #FF4343;
+    border: 2px solid #FF4343;
+}
+
+
+#hero {
+    background: #100E14;
+}
+
+.hero h1 {
+    font-size: 63px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 96px 0 44px 0;
+}
+
+.hero p {
+    font-size: 28px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.hero button {
+    font-size: 23px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #FF4343;
+    padding: 15px 25px;
+    margin: 73px 0 19px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.hero button ion-icon {
+    padding-left: 14px;
+    font-size: 27px;
+}
+
+.hero h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 61px;
+}
+
+.hero-img-two {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    z-index: 3;
+    animation: imgOne 3s alternate;
+}
+
+@keyframes imgOne {
+    0% {
+        transform: translateX(+500px);
+    }
+}
+
+.hero-img-one {
+    animation: imgTwo 3s alternate;
+}
+
+@keyframes imgTwo {
+    0% {
+        transform: translateX(-500px);
+    }
+}
+
+#shoot {
+    background: #121118;
+    padding: 60px 0;
+}
+
+.shoot-text h1 {
+    width: 442px;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #FFFFFF;
+    padding-bottom: 38px;
+}
+
+.shoot-text p {
+    width: 442px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #FFFFFF80;
+}
+
+.shoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shoot-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.shoot-img-two {
+    position: absolute;
+    left: -330px;
+    bottom: -60px;
+}
+
+.shoot-img-one {
+    position: relative;
+    z-index: 2;
+}
+
+#enrich {
+    background: #121118;
+    padding: 60px 0;
+}
+
+.enrich-text h1 {
+    width: 462px;
+    font-size: 58px;
+    line-height: 70px;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-bottom: 38px;
+}
+
+.enrich-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 27px;
+    line-height: 38px;
+    font-weight: 400;
+    width: 524px;
+}
+
+.enrich-text p span {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.enrich {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enrich-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.enrich-img-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#add {
+    background: #121118;
+    padding: 60px 0;
+}
+
+
+.add-text h1 {
+    width: 404px;
+    font-size: 54px;
+    line-height: 70px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.add-text p {
+    padding-top: 38px;
+    width: 526px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.add-text p span {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-block {
+    width: 571px;
+    height: 367px;
+    background: #25232c;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-block-one {
+    -webkit-box-shadow: 4px 4px 17px 0 rgba(181, 68, 54, 0.36);
+    -moz-box-shadow: 4px 4px 17px 0 rgba(181, 68, 54, 0.36);
+    box-shadow: 4px 4px 17px 0 rgba(181, 68, 54, 0.36);
+    margin: 10px 0;
+    padding: 20px 10px 0 10px;
+    background: #161617;
+    width: 70%;
+    height: 65px;
+    border-radius: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.add-block-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #2d2d2e;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-block-text h6 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.add-block-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.add-block-one button {
+    background: #fd4264;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+#link {
+    padding: 80px 0;
+    background: #121118;
+}
+
+.link-text h1 {
+    width: 445px;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #FFFFFF;
+    padding-bottom: 38px;
+}
+
+.link-text p {
+    width: 500px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.link-text p span {
+    font-weight: 700;
+    color: white;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-block {
+    width: 562px;
+    height: 350px;
+    background: #1d1c27;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.link-block div {
+    width: 75px;
+    height: 280px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.link-block div ion-icon {
+    color: white;
+    font-size: 30px;
+}
+
+.ion-icon-youtube {
+    background: #d00513;
+}
+
+.instagram {
+    background: #c6033f;
+}
+
+.twitch {
+    background: #7c3fea;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
